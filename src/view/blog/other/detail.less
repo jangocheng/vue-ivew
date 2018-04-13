@@ -1,0 +1,150 @@
+.detail {
+    width: 1200px;
+    margin: auto;
+    margin-top: 56px;
+    box-shadow: 0px 3px 5px 0px rgba(232, 232, 232, 0.62);
+    border-radius: 6px;
+    overflow: hidden;
+    &-left {
+        float: left;
+        width: 285px;
+        height: 100%;
+        background: #fbfbfb;
+        border-right: 1px solid #f3f3f3;
+        box-sizing: border-box;
+        padding: 0 12px;
+    }
+    &-center {
+        width: 630px;
+        border-right: 1px solid #f3f3f3;
+        float: left;
+        background: #fff;
+        box-sizing: border-box;
+        padding: 0 20px;
+        .title {
+            height: 92px;
+            box-sizing: border-box;
+            padding: 24px 0;
+            border-bottom: 1px solid #f3f3f3;
+            h2 {
+                font-size: 20px;
+                color: #010101;
+                line-height: 24px;
+                font-weight: bold;
+            }
+            h6 {
+                font-size: 12px;
+                margin-top: 12px;
+                color: #a4a4a4;
+            }
+        }
+        .content {
+            border-bottom: 1px solid #f3f3f3;
+            section {
+                padding: 20px 0;
+                h4 {
+                    line-height: 32px;
+                    font-size: 14px;
+                    color: #333333;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #333333;
+                }
+            }
+            footer {
+                color: #a4a4a4;
+                line-height: 40px;
+                overflow: hidden;
+                .left {
+                    float: left;
+                    overflow: hidden;
+                    span {
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 16px;
+                        cursor: pointer;
+                        background: url('../../../images/iconfont/zan.png') no-repeat left center;
+                    }
+                    img {
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 4px;
+                        border-radius: 100%;
+                    }
+                }
+                .right {
+                    float: right;
+                    overflow: hidden;
+                    span {
+                        display: inline-block;
+                        padding-left: 24px;
+                        margin-left: 16px;
+                        cursor: pointer;
+                    }
+                    .zan {
+                        background: url('../../../images/blog/zan.png') no-repeat left center;
+                    }
+                    .zan_b {
+                        background: url('../../../images/blog/zan_b.png') no-repeat left center;
+                    }
+                    .comment {
+                        background: url('../../../images/blog/comment.png') no-repeat left center;
+                    }
+                    .share {
+                        background: url('../../../images/blog/share.png') no-repeat left center;
+                    }
+                    a {
+                        color: #a4a4a4;
+                    }
+                }
+            }
+        }
+        .comment_ {
+            overflow: hidden;
+            margin: 20px 0;
+            .left {
+                float: left;
+                i {
+                    display: inline-block;
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 18px;
+                }
+                i:nth-of-type(1) {
+                    background: url('../../../images/blog/happy.png') no-repeat;
+                }
+                i:nth-of-type(2) {
+                    background: url('../../../images/blog/@.png') no-repeat;
+                }
+            }
+            .right {
+                float: right;
+            }
+            footer {
+                overflow: hidden;
+                margin-top: 20px;
+            }
+            .more {
+                font-size: 12px;
+                line-height: 40px;
+                text-align: center;
+                color: #a4a4a4;
+                background: none;
+                border: none;
+                margin: 0;
+            }
+        }
+    }
+    &-right {
+        float: right;
+        width: 285px;
+        height: 100%;
+        background: #fff;
+        box-sizing: border-box;
+        padding: 0 12px;
+    }
+}

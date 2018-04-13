@@ -1,0 +1,231 @@
+.menu {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+.menu-header {
+  width: 1240px;
+  margin: auto;
+  height: 70px;
+}
+.menu-header-left {
+  width: 310px;
+  float: left;
+}
+.menu-header-left img {
+  width: 74px;
+  height: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+.menu-header-left span {
+  display: block;
+  font-size: 28px;
+  margin-top: 24px;
+  font-family: "黑体";
+}
+.menu-header-center {
+  width: 530px;
+  float: left;
+}
+.menu-header-center ul li {
+  float: left;
+  line-height: 70px;
+  padding: 0 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.menu-header-right {
+  width: 375px;
+  float: left;
+}
+.menu-header-right .search {
+  float: left;
+  overflow: hidden;
+  margin: 15px 0;
+  height: 40px;
+  width: 176px;
+  outline: none;
+  border-radius: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: 1px solid #c9c9c9;
+}
+.menu-header-right .search input {
+  height: 40px;
+  width: 176px;
+}
+.menu-header-right .search:focus {
+  border-radius: 20px;
+  border-color: #c9c9c9;
+  -webkit-box-shadow: 0 0 0 1px #e2e2e2;
+  box-shadow: 0 0 0 1px #e2e2e2;
+}
+.menu-header-right .register {
+  float: left;
+  width: 94px;
+  text-align: right;
+  line-height: 70px;
+}
+.menu-header-right .login {
+  width: 87px;
+  text-align: right;
+  float: left;
+  line-height: 70px;
+}
+.banner {
+  width: 100%;
+  height: 400px;
+}
+.trade-big-cafe {
+  width: 1200px;
+  margin: auto;
+}
+.trade-big-cafe .title {
+  overflow: hidden;
+  line-height: 78px;
+}
+.trade-big-cafe .title h2 {
+  float: left;
+  font-size: 28px;
+  color: #010101;
+}
+.trade-big-cafe .title a {
+  float: right;
+  font-size: 16px;
+}
+.trade-big-cafe .list {
+  text-align: center;
+}
+.trade-big-cafe .list li {
+  float: left;
+  width: 284px;
+  height: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background: url('../images/home/1_05.png') no-repeat;
+  background-color: #fff;
+  position: relative;
+}
+.trade-big-cafe .list li img {
+  margin: auto;
+  margin-top: 110px;
+  border-radius: 50%;
+}
+.trade-big-cafe .list li h5 {
+  line-height: 55px;
+  font-size: 18px;
+}
+.trade-big-cafe .list li h4 {
+  font-size: 18px;
+  color: #fd3938;
+}
+.trade-big-cafe .list li > h6 {
+  color: #9195a0;
+  font-size: 14px;
+}
+.trade-big-cafe .list li .info {
+  margin: 25px 0 30px 0;
+  overflow: hidden;
+}
+.trade-big-cafe .list li .info p {
+  float: left;
+  width: 85px;
+  font-size: 14px;
+  text-align: center;
+}
+.trade-big-cafe .list li .info p span {
+  display: block;
+}
+.trade-big-cafe .list li .info p span:last-child {
+  color: #999;
+}
+.trade-big-cafe .list li .info p:nth-of-type(2) {
+  width: 114px;
+  box-sizing: border-box;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.trade-big-cafe .list li .care {
+  width: 88px;
+  line-height: 32px;
+  background: #0263ff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.trade-big-cafe .list li .care:hover {
+  background-color: #3582ff;
+}
+.trade-big-cafe .list li .follow {
+  position: absolute;
+  width: 162px;
+  font-size: 18px;
+  height: 42px;
+  color: #fff;
+  background: #0263ff;
+  border-radius: 20px;
+  bottom: -21px;
+  left: 50%;
+  margin-left: -81px;
+}
+.trade-big-cafe .list li .follow:hover {
+  background-color: #3582ff;
+}
+.trade-big-cafe .list li:last-child {
+  margin: 0;
+}
+.footer {
+  width: 100%;
+  overflow: hidden;
+  background: #191919;
+  color: #8c8c8c;
+  padding: 20px 0;
+}
+.footer-content {
+  width: 1200px;
+  margin: auto;
+}
+.footer-content h6 {
+  font-size: 14px;
+  line-height: 110px;
+}
+.footer-content .title {
+  border-bottom: 2px solid #292929;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.footer-content .title li {
+  float: left;
+  width: 160px;
+  margin-right: 150px;
+}
+.footer-content .title li h4 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footer-content .title li p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.footer-content .title li p span:nth-of-type(2) {
+  float: right;
+}
+.footer-content .title li:last-child {
+  margin: 0;
+}
+.footer-content .info {
+  padding-top: 30px;
+  font-size: 14px;
+}
+.footer-content .info p {
+  margin-bottom: 15px;
+}
+.footer-content .info p a {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-right: 20px;
+}

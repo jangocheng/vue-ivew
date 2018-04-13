@@ -1,0 +1,278 @@
+.follow {
+    width: 1200px;
+    margin: auto;
+    &-header {
+        height: 56px;
+        text-align: right;
+        line-height: 56px;
+        font-size: 14px;
+        color: #999999;
+        i {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url('../../images/iconfont/calendar.png') no-repeat;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    }
+    &-content {
+        background-color: #ffffff;
+        overflow: hidden;
+        box-shadow: 0px 3px 5px 0px rgba(232, 232, 232, 0.62);
+        border-radius: 6px;
+        padding: 0 20px;
+        .header {
+            height: 62px;
+            line-height: 60px;
+            overflow: hidden;
+            box-sizing: content-box;
+            li {
+                float: left;
+                width: 140px;
+                font-size: 18px;
+                a {
+                    display: inline-block;
+                    border-bottom: 2px solid #ffffff;
+                    color: #010101;
+                }
+            }
+        }
+        .content {
+            &-header {
+                width: 100%;
+                height: 60px;
+                .left {
+                    float: left;
+                    p {
+                        width: 332px;
+                        height: 34px;
+                        line-height: 32px;
+                        margin-top: 20px;
+                        border-radius: 4px;
+                        border: solid 1px #d1d2d7;
+                        a {
+                            display: inline-block;
+                            width: 110px;
+                            font-size: 14px;
+                            color: #333333;
+                            text-align: center;
+                        }
+                    }
+                }
+                .right {
+                    width: 500px;
+                    float: right;
+                    margin-top: 25px;
+                }
+            }
+            &-title {
+                .thead {
+                    height: 48px;
+                    width: 100%;
+                    background-color: #fbfbfb;
+                    line-height: 48px;
+                    overflow: hidden;
+                    a {
+                        display: block;
+                        float: left;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #999999;
+                        position: relative;
+                        i:nth-of-type(1) {
+                            display: inline-block;
+                            position: absolute;
+                            right: 0px;
+                            top: 16px;
+                            width: 10px;
+                            height: 5px;
+                            cursor: pointer;
+                            background: url('../../images/iconfont/up_black.png') no-repeat;
+                        }
+                        i:nth-of-type(2) {
+                            display: inline-block;
+                            position: absolute;
+                            width: 10px;
+                            right: 0px;
+                            top: 26px;
+                            height: 5px;
+                            cursor: pointer;
+                            background: url('../../images/iconfont/down_black.png') no-repeat;
+                        }
+                    }
+                    a:first-child {
+                        padding: 0;
+                        width: 180px;
+                        text-align: center;
+                    }
+                    a:nth-of-type(2) {
+                        width: 94px;
+                    }
+                    a:nth-of-type(3) {
+                        width: 94px;
+                    }
+                    a:nth-of-type(4) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(5) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(6) {
+                        width: 136px;
+                    }
+                    a:nth-of-type(7) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(8) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(9) {
+                        width: 150px;
+                    }
+                    .condition {
+                        text-align: right;
+                        padding-right: 12px;
+                        float: right;
+                        width: 100px;
+                        background: url('../../images/iconfont/condition.png') no-repeat left center;
+                        span {
+                            color: #ffac2c;
+                        }
+                    }
+                }
+                .info {
+                    height: 42px;
+                    background-color: rgba(255, 246, 227, 0.5);
+                    line-height: 42px;
+                    position: relative;
+                    h4 {
+                        text-align: center;
+                        color: #fda29f;
+                        font-size: 14px;
+                        span {
+                            margin-right: 20px;
+                        }
+                    }
+                    a {
+                        display: block;
+                        position: absolute;
+                        width: 18px;
+                        height: 18px;
+                        right: 12px;
+                        top: 12px;
+                        background: url('../../images/iconfont/cancle_red.png') no-repeat;
+                    }
+                }
+            }
+            &-list {
+                li {
+                    height: 120px;
+                    border-bottom: 1px solid #f3f3f3;
+                    .user {
+                        width: 180px;
+                        position: relative;
+                        display: block;
+                        float: left;
+                        cursor: pointer;
+                        img {
+                            float: left;
+                            width: 54px;
+                            height: 54px;
+                            margin: 25px 15px 0 0;
+                            border-radius: 100%;
+                        }
+                        h4 {
+                            float: left;
+                            font-size: 16px;
+                            margin: 35px 0 0 0;
+                            p:first-child {
+                                span:last-child {
+                                    display: inline-block;
+                                    width: 16px;
+                                    height: 14px;
+                                    background: url('../../images/home/trade_user.png')
+                                }
+                            }
+                            p:last-child {
+                                span {
+                                    display: inline-block;
+                                    width: 17px;
+                                    height: 17px;
+                                    background: url('../../images/iconfont/star.png') no-repeat;
+                                }
+                            }
+                        }
+                    }
+                    a {
+                        display: block;
+                        float: left;
+                        font-size: 14px;
+                        color: #010101;
+                        text-align: center;
+                        height: 120px;
+                        line-height: 120px;
+                    }
+                    a:nth-of-type(1) {
+                        width: 94px;
+                    }
+                    a:nth-of-type(2) {
+                        width: 94px;
+                    }
+                    a:nth-of-type(3) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(4) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(5) {
+                        width: 136px;
+                    }
+                    a:nth-of-type(6) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(7) {
+                        width: 100px;
+                    }
+                    a:nth-of-type(8) {
+                        width: 150px;
+                    }
+                    .operate {
+                        position: relative;
+                        float: right;
+                        padding-top: 24px;
+                        overflow: hidden;
+                        button {
+                            width: 88px;
+                            display: block;
+                            height: 32px;
+                            background-color: #0263ff;
+                            border-radius: 4px;
+                            color: #fff;
+                            margin-bottom: 10px;
+                        }
+                        .edit {
+                            background: #333333;
+                            color: #fff;
+                        }
+                        .care {
+                            background: #0263ff;
+                            color: #fff;
+                        }
+                        .nocare {
+                            background: #ff9900;
+                            color: #fff;
+                        }
+                        .nocare:hover {
+                            background: #ff9900;
+                        }
+                    }
+                }
+            }
+            .pagenation {
+                text-align: center;
+                padding: 50px 0;
+            }
+        }
+    }
+}

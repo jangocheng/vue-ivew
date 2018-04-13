@@ -1,0 +1,209 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+.login {
+    width: 420px;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px 0px rgba(232, 232, 232, 0.62);
+    border-radius: 6px;
+    position: fixed;
+    padding: 30px;
+    top: 120px;
+    left: 50%;
+    margin-left: -210px;
+    box-sizing: border-box;
+    .header {
+        padding: 23px 0;
+        height: 32px;
+        position: relative;
+        background: url("../images/login/pro.png") no-repeat center;
+        img {
+            position: absolute;
+            right: -12px;
+            top: 15px;
+            cursor: pointer;
+        }
+    }
+    .content {
+        overflow: hidden;
+        box-sizing: border-box;
+        .title {
+            height: 56px;
+            position: relative;
+            margin-bottom: 40px;
+            i {
+                position: absolute;
+                display: block;
+                width: 1px;
+                height: 17px;
+                background-color: #c9c9c9;
+                left: 50%;
+                top: 17px;
+            }
+            p {
+                float: left;
+                width: 50%;
+                font-size: 16px;
+                text-align: center;
+                box-sizing: border-box;
+                a {
+                    margin: auto;
+                    line-height: 56px;
+                    border-bottom: 2px solid #fff;
+                    display: inline-block;
+                }
+            }
+        }
+        .model {
+            overflow: hidden;
+            p {
+                width: 100%;
+                height: 48px;
+                border-radius: 8px;
+                border: solid 1px #c9c9c9;
+                margin-bottom: 28px;
+                padding: 0 11px;
+                box-sizing: border-box;
+                i {
+                    width: 12px;
+                    height: 16px;
+                    display: block;
+                    float: left;
+                    margin-top: 17px;
+                    margin-right: 12px;
+                }
+                input {
+                    float: left;
+                    margin-top: 17px;
+                }
+            }
+            .phone {
+                i {
+                    background: url("../images/login/phone.png") no-repeat;
+                }
+            }
+            .yzcode {
+                i {
+                    width: 16px;
+                    height: 13px;
+                    background: url("../images/login/yzcode.png") no-repeat;
+                }
+                input {
+                    width: 180px;
+                    border-right: 1px solid #999999;
+                }
+                canvas {
+                    float: right;
+                    margin: 9px;
+                }
+            }
+            .phonecode {
+                i {
+                    width: 14px;
+                    height: 16px;
+                    background: url("../images/login/pass.png") no-repeat;
+                }
+                input {
+                    width: 180px;
+                    border-right: 1px solid #999999;
+                }
+                a {
+                    color: #0263ff;
+                    text-align: right;
+                    display: inline-block;
+                    width: 120px;
+                    line-height: 48px;
+                    font-size: 14px;
+                }
+            }
+            .email {
+                i {
+                  margin-top: 20px;
+                  background: url("../images/login/email.png") no-repeat;
+                }
+            }
+            .pwd {
+                i {
+                    background: url("../images/login/pwd.png") no-repeat;
+                }
+            }
+            .operate {
+                overflow: hidden;
+                font-size: 14px;
+                color: #999;
+                margin-bottom: 62px;
+                input {
+                    width: 16px;
+                    float: left;
+                    height: 16px;
+                    background-color: #ffffff;
+                    border-radius: 2px;
+                    border: solid 1px #c9c9c9;
+                }
+                span {
+                    display: inline-block;
+                    margin-left: 8px;
+                    float: left;
+                }
+                a {
+                    display: inline-block;
+                    float: right;
+                    color: #999;
+                    margin-left: 10px;
+                }
+                i {
+                    display: inline-block;
+                    float: right;
+                    margin-left: 10px;
+                }
+            }
+            .btn {
+                overflow: hidden;
+                a {
+                    text-align: center;
+                    line-height: 48px;
+                    color: #fff;
+                    display: block;
+                    font-size: 18px;
+                    float: left;
+                    width: 169px;
+                    height: 48px;
+                    background-color: #0263ff;
+                    border-radius: 8px;
+                    border: solid 1px #0263ff;
+                }
+                a:last-child {
+                    float: right;
+                    background-color: #ffffff;
+                    color: #333333;
+                    border: solid 1px #c9c9c9;
+                }
+            }
+        }
+    }
+    .code {
+        h3 {
+            font-size: 18px;
+            color: #010101;
+            font-weight: bold;
+            text-align: center;
+            line-height: 48px;
+        }
+        h6 {
+            line-height: 62px;
+            color: #999;
+            font-size: 14px;
+            text-align: center;
+        }
+        img {
+            width: 220px;
+            height: 220px;
+            margin: auto;
+        }
+    }
+}
