@@ -10,7 +10,6 @@ import {
 import API from './API'
 const api = new API()
 Vue.prototype.$http = axios
-axios.defaults.baseURL = 'http://111.231.102.187'
 axios.interceptors.request.use(config => {
   // iView.Spin.show()
   const token = getCookie('token')
